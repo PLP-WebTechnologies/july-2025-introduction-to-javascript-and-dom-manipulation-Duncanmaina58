@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mastering JavaScript Fundamentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="page-title">JavaScript Fundamentals Assignment</h1>
+  
+  <!-- Part 1: Input + Conditionals -->
+  <div>
+    <label for="age">Enter your age: </label>
+    <input type="number" id="age">
+    <button onclick="checkAge()">Check Age</button>
+    <p id="age-result"></p>
+  </div>
+
+  <!-- Part 2: Functions -->
+  <div>
+    <button onclick="calculateTotal(100, 5)">Calculate Total</button>
+    <p id="total-result"></p>
+  </div>
+
+  <!-- Part 3: Loops -->
+  <div>
+    <button onclick="showCountdown()">Start Countdown</button>
+    <ul id="countdown-list"></ul>
+  </div>
+
+  <!-- Part 4: DOM Manipulation -->
+  <div>
+    <button id="toggle-btn">Toggle Highlight</button>
+    <p id="toggle-text">Click the button to highlight me!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
